@@ -61,7 +61,7 @@ function gameEngine() {
         score = 0;
         // hiscoreval=localStorage.getItem("hiscore");
         // document.getElementById('hiscore').innerHTML="Highest Score: "+hiscoreval;
-        document.getElementById('scoreBox').innerHTML="Score: "+score;
+        document.getElementById('scoreBox').innerHTML="Your Score: "+score;
     }
 // If you have eaten the food , increment the score and regenerate the food
     if (snakeArr[0].x === food.x && snakeArr[0].y===food.y) {
