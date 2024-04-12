@@ -72,7 +72,7 @@ function gameEngine() {
         //     localStorage.setItem("hiscore", JSON.stringify(hiscoreval));
         //     document.getElementById('hiscore').innerHTML="Highest Score: "+hiscoreval;
         // }
-        document.getElementById('scoreBox').innerHTML="Score: "+score;
+        document.getElementById('scoreBox').innerHTML="Your Score: "+score;
         snakeArr.unshift({x: snakeArr[0].x + inputDir.x, y: snakeArr[0].y + inputDir.y});
         let a=2;
         let b=16;
